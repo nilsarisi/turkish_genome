@@ -1,0 +1,20 @@
+{
+    "Chromosomes": [
+      {
+        "name": "Chromosome 1",
+        "genes": [
+          {
+            "id": "gene123",
+            "name": "ABC1",
+            "transcripts": [
+              {
+                "id": "trans123",
+                "details": "Transcript details here..."
+              }
+            ]
+          }
+        ]
+      },
+    ]
+  }
+  
