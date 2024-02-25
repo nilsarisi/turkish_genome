@@ -2,14 +2,14 @@ from bs4 import BeautifulSoup
 import csv
 
 # Load your HTML file content into BeautifulSoup
-with open('chr22.html', 'r') as file:
+with open('chromosome_htmls/chr21.html', 'r') as file:
     soup = BeautifulSoup(file, 'html.parser')
 
 # Find the table by its ID
 table = soup.find('table', id='gene_table')
 
 # Prepare to write to a file
-with open('chromosome22.csv', 'w', newline='') as csvfile:
+with open('chromosome_tables/chromosome21.csv', 'w', newline='') as csvfile:
     filewriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
     
     # Write header
