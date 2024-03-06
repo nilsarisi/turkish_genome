@@ -8,9 +8,6 @@ About the Project
 Data Acquisition Challenges
 -  While embarking on this ambitious journey, we encountered a critical challenge: discrepancies between the data reported on the website and our findings. This issue stems from inaccuracies in the website's presentation rather than in our data processing methodologies.
 
-Addressing Data Discrepancies
--  Website Misreporting: Identified discrepancies prompted a rigorous review process to pinpoint and rectify inaccuracies, ensuring data reliability.
-
 Gene Information Extraction
 -  Tool Used: BeautifulSoup
 -  Objective: Gather gene data across chromosomes, impacted by website inaccuracies but corrected through validation.
