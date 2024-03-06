@@ -8,17 +8,19 @@ About the Project
 Data Acquisition Challenges
 -  While embarking on this ambitious journey, we encountered a critical challenge: discrepancies between the data reported on the website and our findings. This issue stems from inaccuracies in the website's presentation rather than in our data processing methodologies.
 
+Data Acquisiton Process
+
 Gene Information Extraction
--  Tool Used: BeautifulSoup
--  Objective: Gather gene data across chromosomes, impacted by website inaccuracies but corrected through validation.
+-	Tool Used: BeautifulSoup
+-	Scope: Extracted gene information across 22 chromosomes, aiming to understand the genetic basis and structure.
 
 Transcript Information Collection
--  Tool Used: Selenium
--  Objective: Compile transcript data, with special attention to verification due to initial website misreporting.
+-	Tool Used: Selenium
+-	Scope: Gathered detailed transcript information for the 22 chromosomes to further dissect gene expression and functionality.
 
 Variant Information Compilation
--  Tool Used: Playwright
--  Objective: Catalog comprehensive variant data, underpinning the importance of cross-checking against reliable sources.
+-	Tool Used: Playwright
+-	Scope: Acquired variant information from every gene across 22 chromosomes, crucial for identifying genetic variations and their implications on health.
 
 Future Directions
 -  Understanding and rectifying the data presentation issues on the website are ongoing. We are committed to transparency and accuracy as we advance towards making significant contributions to genomics and personalized medicine.
