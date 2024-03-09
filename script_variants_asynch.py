@@ -36,15 +36,15 @@ async def scrape_urls_and_write_to_csv(input_file, output_file):
             data = await scrape_with_playwright(url)
             filewriter.writerows(data)
             count += 1
-            if count % 10 == 0:  # Check if the count is a multiple of 10
+            if count % 50 == 0:  # Check if the count is a multiple of 10
                 print(f"{count} links are done")
 
-        if count % 10 != 0:  # To print the final count if it's not a multiple of 10
+        if count % 50 != 0:  # To print the final count if it's not a multiple of 10
             print(f"{count} links are done")
 
 # Specify your input file with URLs and output CSV file
-input_file = 'gene_links/gene_links_chr21.txt'
-output_file = 'chr21_Var.csv'
+input_file = 'gene_links/gene_links_chr5.txt'
+output_file = 'chr5.4_Var.csv'
 
 # Run the scraping and writing process
 asyncio.run(scrape_urls_and_write_to_csv(input_file, output_file))
